@@ -26,7 +26,7 @@ namespace CapMonsterCloud.Models.CaptchaTasks
         /// FunCaptcha website key.
         /// <div id="funcaptcha" data-pkey="THAT_ONE"></div>
         /// </summary>
-        public double WebsitePublicKey { get; set; }
+        public string WebsitePublicKey { get; set; }
 
         /// <summary>
         /// Additional parameter that may be required by Funcaptcha implementation.
